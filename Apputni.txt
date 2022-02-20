@@ -5,6 +5,6 @@ def win_or_lose:
 		print ("hai vinto " + vincita + "! Hai battuto il DEALER, avevi un valore più alto senza sballare, ora ti rimangono " + tot_vincite + " 	patate.")
 # non faccio un elif o un else perchè a prescindere se il dealer sballa o meno, se il giocatore non lo batte perde ciò che ha puntato
 	if 21 < mano_dealer:
-		print ()
+		print ("il leader ha sballato, tu hai vinto")
 	
 	if 
